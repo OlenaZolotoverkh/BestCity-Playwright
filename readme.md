@@ -105,9 +105,30 @@ npx playwright test --headed
 
 ### View HTML report
 npx playwright show-report
+```
 
 ## 📌 Disclaimer
 This project was created as part of a technical assessment and uses a limited test scope by design.
+
+## 🧩 Automation Framework Choice
+
+The automation examples in this project are implemented using **Playwright**.
+
+Playwright was selected because it is a modern, actively maintained framework that provides:
+- built-in browser management (Chromium, Firefox, WebKit)
+- reliable auto-waiting and reduced flakiness
+- native support for modern web applications and SPA behavior
+- fast setup and readable test syntax
+
+Although the original task mentions Selenium/WebDriver, the core automation concepts demonstrated here
+(locators, assertions, test structure, reusable steps) are **framework-agnostic**.
+
+If required, the same scenarios and test logic can be easily migrated to **Selenium WebDriver**
+with minimal changes to selectors and execution flow.
+
+The choice of Playwright was made to demonstrate a clean, stable, and modern approach to UI automation,
+while keeping the solution simple and focused on the task scope.
+
 
 
 
