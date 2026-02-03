@@ -106,4 +106,8 @@ npx playwright test --headed
 ### View HTML report
 npx playwright show-report
 
+## 📌 Disclaimer
+This project was created as part of a technical assessment and uses a limited test scope by design.
+
+
 
